@@ -1,0 +1,128 @@
+@font-face {
+  font-family: spring;
+  src: url(./fontspring-demo-zuumerough-bold.otf);
+}
+.navigation {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+}
+.logo {
+  width: 7vw;
+  height: 4vw;
+  position: relative;
+  top: 1.25vw;
+  padding-bottom: 0;
+}
+.gallery {
+  font-family: Abyssinica SIL ;
+  font-size: 1.5vw;
+  position: relative;
+  top: 45%;
+  padding-bottom: 0;
+  color: black;
+}
+.about {
+  font-family: Abyssinica SIL;
+  font-size: 1.5vw;
+  position: relative;
+  top: 45%;
+  padding-bottom: 0;
+  color: black;
+}
+.artly {
+  text-align: center;
+  font-family: alata;
+  font-size: 8vw;
+  color: #093d65;
+  margin-bottom: 0;
+}
+.desc {
+  width: 60%;
+  font-family: poppins;
+  padding-bottom: 1%;
+  font-size: small;
+}
+.disc2 {
+  background-color: #d9d9d9;
+  height: 3%;
+  margin-bottom: 3.5%;
+}
+.sell {
+  font-family: spring;
+  font-size: 8vw;
+  color: #093d65;
+  letter-spacing: 1vw;
+}
+.cara {
+  width: 80%;
+  padding: 3%;
+  padding-top: 0%;
+  padding-bottom: 5%;
+}
+.vhead {
+  font-family: Abyssinica SIL;
+  font-size: 3vw;
+  color: #093d65;
+  padding-left: 13%;
+  margin-bottom: 0%;
+}
+.vcontent {
+    padding-left: 13%;
+  width: 90%;
+  font-family: poppins;
+  font-size: 1.7vw;
+}
+.vision{
+    background-color: #d9d9d9;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+@media (max-width: 768px) {
+  .navigation {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+  }
+  .logo {
+    width: 20%;
+    height: auto;
+    position: relative;
+    top: 20px;
+  }
+  
+  .gallery,
+  .about {
+    font-size: 4vw;
+    top: 50%;
+  }
+  
+  .artly {
+    font-size: 15vw;
+  }
+  
+  .desc {
+    font-size: 1em;
+    width: 70%;
+  }
+  
+  .sell {
+    font-size: 15vw;
+    letter-spacing: 0.2vw;
+  }
+  .cara {
+    width: 80%;
+    padding: 3%;
+    padding-top: 0%;
+    padding-bottom: 5%;
+  }
+  .vhead {
+    font-size: 5vw;
+  }
+  
+  .vcontent {
+    font-size: 1em;
+  }
+}
